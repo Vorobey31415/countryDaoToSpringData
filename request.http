@@ -1,0 +1,25 @@
+### Create country
+
+POST localhost:8080/api/country
+Content-Type: application/json
+
+{
+  "name": "Ireland",
+  "codeName" : "IE"
+}
+
+### Get all countries
+
+GET localhost:8080/api/countries
+
+### Get country by id
+
+GET localhost:8080/api/country/1
+
+### Delete country by id
+
+DELETE localhost:8080/api/country/1
+
+### Change country name by id
+
+PUT localhost:8080/api/country/1/?name=Scotland
